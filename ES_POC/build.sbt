@@ -1,3 +1,4 @@
+
 name := "ES_POC"
 
 version := "0.1"
@@ -7,6 +8,10 @@ scalaVersion := "2.11.0"
 val es = "org.elasticsearch" % "elasticsearch" % "5.6.1"
 val esClient = "org.elasticsearch.client" % "transport" % "5.6.1"
 val log4j = "log4j" % "log4j" % "1.2.17"
+val mongoDb = "org.mongodb.scala" %% "mongo-scala-driver" % "2.2.1"
+val RabbitMqClient = "com.rabbitmq"  %  "amqp-client"% "3.6.5"
+
+
 
 
 libraryDependencies ++= {
@@ -15,7 +20,9 @@ libraryDependencies ++= {
     "org.scala-lang" % "scala-reflect" % "2.11.0",
     es,
     esClient,
-    log4j
+    log4j,
+    mongoDb,
+    RabbitMqClient
   )
 }
 
