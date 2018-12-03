@@ -4,7 +4,7 @@
 		module="es_poc_2.11"
 		revision="0.1"
 		status="integration"
-		publication="20181129154505"
+		publication="20181130204439"
 	>
 		<description>
 		ES_POC
@@ -39,5 +39,8 @@
 		<dependency org="log4j" name="log4j" rev="1.2.17" conf="compile->default(compile)"/>
 		<dependency org="org.mongodb.scala" name="mongo-scala-driver_2.11" rev="2.2.1" conf="compile->default(compile)"/>
 		<dependency org="com.rabbitmq" name="amqp-client" rev="3.6.5" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-actor_2.11" rev="2.5.18" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-stream_2.11" rev="2.5.18" conf="compile->default(compile)"/>
+		<dependency org="org.apache.activemq" name="activemq-core" rev="5.7.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
