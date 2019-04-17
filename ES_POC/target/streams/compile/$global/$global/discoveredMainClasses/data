@@ -1,1 +1,1 @@
-["es.Test"]
+["AMQ_POC.ProduceToQueue","AMQ_POC.ProduceToTopic","AMQ_POC.ReceiveFromQeue","AMQ_POC.Test","Mongo_POC.Test","RMQ_POC.MessagePublisher","RMQ_POC.MessagePublisher2","RMQ_POC.Test","cassandra_phantom.Model.Test","docker.Test","es.Test","simulator.SimulatorServer"]

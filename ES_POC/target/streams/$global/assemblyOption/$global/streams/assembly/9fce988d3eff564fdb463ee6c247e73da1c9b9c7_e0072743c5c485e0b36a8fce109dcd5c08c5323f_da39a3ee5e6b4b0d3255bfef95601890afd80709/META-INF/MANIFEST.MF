@@ -1,0 +1,256 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.2
+Created-By: 1.6.0_29-b11-402-11M3527 (Apple Inc.)
+Export-Package: org.springframework.context;version="3.0.7.RELEASE";us
+ es:="org.springframework.beans,org.springframework.beans.factory,org.
+ springframework.beans.factory.config,org.springframework.core.io,org.
+ springframework.core.io.support,org.springframework.util",org.springf
+ ramework.context.access;version="3.0.7.RELEASE";uses:="org.springfram
+ ework.beans,org.springframework.beans.factory,org.springframework.bea
+ ns.factory.access,org.springframework.context,org.springframework.jnd
+ i",org.springframework.context.annotation;version="3.0.7.RELEASE";use
+ s:="net.sf.cglib.proxy,org.springframework.beans,org.springframework.
+ beans.factory,org.springframework.beans.factory.annotation,org.spring
+ framework.beans.factory.config,org.springframework.beans.factory.pars
+ ing,org.springframework.beans.factory.support,org.springframework.bea
+ ns.factory.xml,org.springframework.context,org.springframework.contex
+ t.support,org.springframework.core.io,org.springframework.core.type,o
+ rg.springframework.core.type.classreading,org.springframework.core.ty
+ pe.filter,org.springframework.stereotype,org.w3c.dom",org.springframe
+ work.context.config;version="3.0.7.RELEASE";uses:="org.springframewor
+ k.beans.factory.config,org.springframework.beans.factory.support,org.
+ springframework.beans.factory.xml,org.w3c.dom",org.springframework.co
+ ntext.event;version="3.0.7.RELEASE";uses:="org.aopalliance.intercept,
+ org.springframework.beans.factory,org.springframework.context,org.spr
+ ingframework.core",org.springframework.context.expression;version="3.
+ 0.7.RELEASE";uses:="org.springframework.beans,org.springframework.bea
+ ns.factory,org.springframework.beans.factory.config,org.springframewo
+ rk.expression,org.springframework.expression.spel.support",org.spring
+ framework.context.i18n;version="3.0.7.RELEASE",org.springframework.co
+ ntext.support;version="3.0.7.RELEASE";uses:="org.apache.commons.loggi
+ ng,org.springframework.beans,org.springframework.beans.factory,org.sp
+ ringframework.beans.factory.config,org.springframework.beans.factory.
+ support,org.springframework.beans.factory.xml,org.springframework.con
+ text,org.springframework.core,org.springframework.core.convert,org.sp
+ ringframework.core.convert.support,org.springframework.core.io,org.sp
+ ringframework.core.io.support,org.springframework.util",org.springfra
+ mework.context.weaving;version="3.0.7.RELEASE";uses:="org.springframe
+ work.beans,org.springframework.beans.factory,org.springframework.bean
+ s.factory.config,org.springframework.core,org.springframework.instrum
+ ent.classloading",org.springframework.ejb.access;version="3.0.7.RELEA
+ SE";uses:="javax.ejb,javax.naming,org.aopalliance.intercept,org.sprin
+ gframework.beans.factory,org.springframework.core,org.springframework
+ .jndi",org.springframework.ejb.config;version="3.0.7.RELEASE";uses:="
+ org.springframework.beans.factory.support,org.springframework.beans.f
+ actory.xml,org.w3c.dom",org.springframework.ejb.interceptor;version="
+ 3.0.7.RELEASE";uses:="javax.annotation,javax.ejb,javax.interceptor,or
+ g.springframework.beans.factory,org.springframework.beans.factory.acc
+ ess,org.springframework.beans.factory.annotation",org.springframework
+ .ejb.support;version="3.0.7.RELEASE";uses:="javax.ejb,javax.jms,org.s
+ pringframework.beans,org.springframework.beans.factory,org.springfram
+ ework.beans.factory.access,org.springframework.util",org.springframew
+ ork.format;version="3.0.7.RELEASE";uses:="org.springframework.core.co
+ nvert.converter",org.springframework.format.annotation;version="3.0.7
+ .RELEASE",org.springframework.format.datetime;version="3.0.7.RELEASE"
+ ;uses:="org.springframework.format",org.springframework.format.dateti
+ me.joda;version="3.0.7.RELEASE";uses:="org.joda.time,org.joda.time.fo
+ rmat,org.springframework.context,org.springframework.core.convert.con
+ verter,org.springframework.format,org.springframework.format.annotati
+ on,org.springframework.util",org.springframework.format.number;versio
+ n="3.0.7.RELEASE";uses:="org.springframework.context,org.springframew
+ ork.format,org.springframework.format.annotation,org.springframework.
+ util",org.springframework.format.support;version="3.0.7.RELEASE";uses
+ :="org.springframework.beans.factory,org.springframework.context,org.
+ springframework.core.convert,org.springframework.core.convert.convert
+ er,org.springframework.core.convert.support,org.springframework.forma
+ t,org.springframework.format.annotation,org.springframework.util",org
+ .springframework.instrument.classloading;version="3.0.7.RELEASE";uses
+ :="org.springframework.core",org.springframework.instrument.classload
+ ing.glassfish;version="3.0.7.RELEASE";uses:="javax.persistence.spi,or
+ g.springframework.instrument.classloading",org.springframework.instru
+ ment.classloading.jboss;version="3.0.7.RELEASE";uses:="org.springfram
+ ework.instrument.classloading",org.springframework.instrument.classlo
+ ading.oc4j;version="3.0.7.RELEASE";uses:="org.springframework.instrum
+ ent.classloading",org.springframework.instrument.classloading.weblogi
+ c;version="3.0.7.RELEASE";uses:="org.springframework.instrument.class
+ loading",org.springframework.jmx;version="3.0.7.RELEASE";uses:="org.s
+ pringframework.core",org.springframework.jmx.access;version="3.0.7.RE
+ LEASE";uses:="javax.management,javax.management.remote,org.aopallianc
+ e.intercept,org.springframework.beans.factory,org.springframework.cor
+ e,org.springframework.jmx,org.springframework.jmx.support",org.spring
+ framework.jmx.export;version="3.0.7.RELEASE";uses:="javax.management,
+ javax.management.modelmbean,org.springframework.aop.target,org.spring
+ framework.beans.factory,org.springframework.jmx,org.springframework.j
+ mx.export.assembler,org.springframework.jmx.export.naming,org.springf
+ ramework.jmx.support",org.springframework.jmx.export.annotation;versi
+ on="3.0.7.RELEASE";uses:="org.springframework.jmx.export,org.springfr
+ amework.jmx.export.metadata,org.springframework.jmx.support",org.spri
+ ngframework.jmx.export.assembler;version="3.0.7.RELEASE";uses:="javax
+ .management,javax.management.modelmbean,org.springframework.beans.fac
+ tory,org.springframework.jmx.export.metadata",org.springframework.jmx
+ .export.metadata;version="3.0.7.RELEASE";uses:="javax.management.mode
+ lmbean,org.springframework.jmx,org.springframework.jmx.support",org.s
+ pringframework.jmx.export.naming;version="3.0.7.RELEASE";uses:="javax
+ .management,org.springframework.beans.factory,org.springframework.cor
+ e.io,org.springframework.jmx.export.metadata",org.springframework.jmx
+ .export.notification;version="3.0.7.RELEASE";uses:="javax.management,
+ javax.management.modelmbean,org.springframework.jmx",org.springframew
+ ork.jmx.support;version="3.0.7.RELEASE";uses:="javax.management,javax
+ .management.remote,org.springframework.aop.target,org.springframework
+ .beans.factory,org.springframework.jmx",org.springframework.jndi;vers
+ ion="3.0.7.RELEASE";uses:="javax.naming,org.aopalliance.intercept,org
+ .springframework.aop,org.springframework.beans.factory,org.springfram
+ ework.core",org.springframework.jndi.support;version="3.0.7.RELEASE";
+ uses:="org.springframework.beans,org.springframework.beans.factory,or
+ g.springframework.jndi",org.springframework.remoting;version="3.0.7.R
+ ELEASE";uses:="org.springframework.core",org.springframework.remoting
+ .rmi;version="3.0.7.RELEASE";uses:="javax.naming,org.aopalliance.inte
+ rcept,org.omg.CORBA,org.springframework.beans.factory,org.springframe
+ work.core,org.springframework.jndi,org.springframework.remoting,org.s
+ pringframework.remoting.support",org.springframework.remoting.soap;ve
+ rsion="3.0.7.RELEASE";uses:="javax.xml.namespace,org.springframework.
+ remoting",org.springframework.remoting.support;version="3.0.7.RELEASE
+ ";uses:="com.sun.net.httpserver,org.aopalliance.intercept,org.springf
+ ramework.beans.factory",org.springframework.scheduling;version="3.0.7
+ .RELEASE";uses:="org.springframework.core,org.springframework.core.ta
+ sk",org.springframework.scheduling.annotation;version="3.0.7.RELEASE"
+ ;uses:="org.aopalliance.aop,org.springframework.aop,org.springframewo
+ rk.aop.framework,org.springframework.aop.support,org.springframework.
+ beans.factory,org.springframework.beans.factory.config,org.springfram
+ ework.context,org.springframework.context.event,org.springframework.c
+ ore,org.springframework.util",org.springframework.scheduling.backport
+ concurrent;version="3.0.7.RELEASE";uses:="edu.emory.mathcs.backport.j
+ ava.util.concurrent,org.springframework.beans.factory,org.springframe
+ work.scheduling,org.springframework.util",org.springframework.schedul
+ ing.concurrent;version="3.0.7.RELEASE";uses:="org.springframework.bea
+ ns.factory,org.springframework.scheduling,org.springframework.schedul
+ ing.support,org.springframework.util",org.springframework.scheduling.
+ config;version="3.0.7.RELEASE";uses:="org.springframework.beans.facto
+ ry,org.springframework.beans.factory.config,org.springframework.beans
+ .factory.support,org.springframework.beans.factory.xml,org.springfram
+ ework.core.task,org.springframework.scheduling,org.w3c.dom",org.sprin
+ gframework.scheduling.support;version="3.0.7.RELEASE";uses:="org.spri
+ ngframework.beans.factory,org.springframework.beans.support,org.sprin
+ gframework.scheduling,org.springframework.util",org.springframework.s
+ cheduling.timer;version="3.0.7.RELEASE";uses:="org.springframework.be
+ ans.factory,org.springframework.scheduling,org.springframework.schedu
+ ling.support",org.springframework.scripting;version="3.0.7.RELEASE";u
+ ses:="org.springframework.core",org.springframework.scripting.bsh;ver
+ sion="3.0.7.RELEASE";uses:="bsh,org.springframework.beans.factory,org
+ .springframework.core,org.springframework.scripting",org.springframew
+ ork.scripting.config;version="3.0.7.RELEASE";uses:="org.springframewo
+ rk.beans.factory.config,org.springframework.beans.factory.support,org
+ .springframework.beans.factory.xml,org.w3c.dom",org.springframework.s
+ cripting.groovy;version="3.0.7.RELEASE";uses:="groovy.lang,org.spring
+ framework.beans,org.springframework.beans.factory,org.springframework
+ .scripting",org.springframework.scripting.jruby;version="3.0.7.RELEAS
+ E";uses:="org.jruby,org.jruby.ast,org.jruby.exceptions,org.jruby.runt
+ ime.builtin,org.springframework.beans.factory,org.springframework.cor
+ e,org.springframework.scripting",org.springframework.scripting.suppor
+ t;version="3.0.7.RELEASE";uses:="org.springframework.aop,org.springfr
+ amework.aop.target.dynamic,org.springframework.beans.factory,org.spri
+ ngframework.beans.factory.config,org.springframework.context,org.spri
+ ngframework.core,org.springframework.core.io,org.springframework.scri
+ pting",org.springframework.stereotype;version="3.0.7.RELEASE",org.spr
+ ingframework.ui;version="3.0.7.RELEASE",org.springframework.ui.contex
+ t;version="3.0.7.RELEASE";uses:="org.springframework.context",org.spr
+ ingframework.ui.context.support;version="3.0.7.RELEASE";uses:="org.sp
+ ringframework.context,org.springframework.ui.context",org.springframe
+ work.validation;version="3.0.7.RELEASE";uses:="org.springframework.be
+ ans,org.springframework.context.support,org.springframework.core,org.
+ springframework.core.convert",org.springframework.validation.beanvali
+ dation;version="3.0.7.RELEASE";uses:="javax.validation,javax.validati
+ on.metadata,org.hibernate.validator.resourceloading,org.springframewo
+ rk.beans,org.springframework.beans.factory,org.springframework.beans.
+ factory.config,org.springframework.context,org.springframework.core.i
+ o,org.springframework.validation",org.springframework.validation.supp
+ ort;version="3.0.7.RELEASE";uses:="org.springframework.ui"
+Bundle-Vendor: SpringSource
+Bundle-Version: 3.0.7.RELEASE
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: Spring Context
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.springframework.context
+Import-Package: bsh;version="[2.0.0.b4, 3.0.0)";resolution:="optional"
+ ,com.ibm.websphere.management;version="0";resolution:="optional",com.
+ sun.net.httpserver;version="0";resolution:="optional",edu.emory.mathc
+ s.backport.java.util.concurrent;version="[3.0.0, 4.0.0)";resolution:=
+ "optional",groovy.lang;version="[1.5.0, 2.0.0)";resolution:="optional
+ ",javax.annotation;version="0";resolution:="optional",javax.ejb;versi
+ on="[2.1.0, 4.0.0)";resolution:="optional",javax.interceptor;version=
+ "[3.0.0, 4.0.0)";resolution:="optional",javax.jms;version="[1.1.0, 2.
+ 0.0)";resolution:="optional",javax.management;version="0";resolution:
+ ="optional",javax.management.modelmbean;version="0";resolution:="opti
+ onal",javax.management.openmbean;version="0";resolution:="optional",j
+ avax.management.remote;version="0";resolution:="optional",javax.namin
+ g;version="0";resolution:="optional",javax.persistence;version="[1.0.
+ 0, 3.0.0)";resolution:="optional",javax.persistence.spi;version="[1.0
+ .0, 3.0.0)";resolution:="optional",javax.rmi;version="0";resolution:=
+ "optional",javax.validation;version="[1.0.0, 2.0.0)";resolution:="opt
+ ional",javax.validation.bootstrap;version="[1.0.0, 2.0.0)";resolution
+ :="optional",javax.validation.metadata;version="[1.0.0, 2.0.0)";resol
+ ution:="optional",javax.xml.namespace;version="0";resolution:="option
+ al",javax.xml.ws;version="0";resolution:="optional",net.sf.cglib.asm;
+ version="[2.1.3, 3.0.0)";resolution:="optional",net.sf.cglib.core;ver
+ sion="[2.1.3, 3.0.0)";resolution:="optional",net.sf.cglib.proxy;versi
+ on="[2.1.3, 3.0.0)";resolution:="optional",org.aopalliance.aop;versio
+ n="[1.0.0, 2.0.0)";resolution:="optional",org.aopalliance.intercept;v
+ ersion="[1.0.0, 2.0.0)";resolution:="optional",org.apache.commons.log
+ ging;version="[1.1.1, 2.0.0)",org.aspectj.weaver.loadtime;version="[1
+ .5.4, 2.0.0)";resolution:="optional",org.codehaus.groovy.control;vers
+ ion="[1.5.0, 2.0.0)";resolution:="optional",org.hibernate.validator.m
+ essageinterpolation;version="[4.0.0, 5.0.0)";resolution:="optional",o
+ rg.hibernate.validator.resourceloading;version="[4.0.0, 5.0.0)";resol
+ ution:="optional",org.joda.time;version="[1.6.0, 2.0.0)";resolution:=
+ "optional",org.joda.time.format;version="[1.6.0, 2.0.0)";resolution:=
+ "optional",org.jruby;version="[1.1.0, 2.0.0)";resolution:="optional",
+ org.jruby.ast;version="[1.1.0, 2.0.0)";resolution:="optional",org.jru
+ by.exceptions;version="[1.1.0, 2.0.0)";resolution:="optional",org.jru
+ by.javasupport;version="[1.1.0, 2.0.0)";resolution:="optional",org.jr
+ uby.runtime;version="[1.1.0, 2.0.0)";resolution:="optional",org.jruby
+ .runtime.builtin;version="[1.1.0, 2.0.0)";resolution:="optional",org.
+ omg.CORBA;version="0";resolution:="optional",org.springframework.aop;
+ version="[3.0.7,3.0.8)";resolution:="optional",org.springframework.ao
+ p.framework;version="[3.0.7,3.0.8)";resolution:="optional",org.spring
+ framework.aop.framework.adapter;version="[3.0.7,3.0.8)";resolution:="
+ optional",org.springframework.aop.interceptor;version="[3.0.7,3.0.8)"
+ ;resolution:="optional",org.springframework.aop.scope;version="[3.0.7
+ ,3.0.8)";resolution:="optional",org.springframework.aop.support;versi
+ on="[3.0.7,3.0.8)";resolution:="optional",org.springframework.aop.sup
+ port.annotation;version="[3.0.7,3.0.8)";resolution:="optional",org.sp
+ ringframework.aop.target;version="[3.0.7,3.0.8)";resolution:="optiona
+ l",org.springframework.aop.target.dynamic;version="[3.0.7,3.0.8)";res
+ olution:="optional",org.springframework.beans;version="[3.0.7,3.0.8)"
+ ,org.springframework.beans.annotation;version="[3.0.7,3.0.8)",org.spr
+ ingframework.beans.factory;version="[3.0.7,3.0.8)",org.springframewor
+ k.beans.factory.access;version="[3.0.7,3.0.8)",org.springframework.be
+ ans.factory.annotation;version="[3.0.7,3.0.8)",org.springframework.be
+ ans.factory.config;version="[3.0.7,3.0.8)",org.springframework.beans.
+ factory.parsing;version="[3.0.7,3.0.8)",org.springframework.beans.fac
+ tory.support;version="[3.0.7,3.0.8)",org.springframework.beans.factor
+ y.xml;version="[3.0.7,3.0.8)",org.springframework.beans.propertyedito
+ rs;version="[3.0.7,3.0.8)",org.springframework.beans.support;version=
+ "[3.0.7,3.0.8)",org.springframework.core;version="[3.0.7,3.0.8)",org.
+ springframework.core.annotation;version="[3.0.7,3.0.8)",org.springfra
+ mework.core.convert;version="[3.0.7,3.0.8)",org.springframework.core.
+ convert.converter;version="[3.0.7,3.0.8)",org.springframework.core.co
+ nvert.support;version="[3.0.7,3.0.8)",org.springframework.core.io;ver
+ sion="[3.0.7,3.0.8)",org.springframework.core.io.support;version="[3.
+ 0.7,3.0.8)",org.springframework.core.task;version="[3.0.7,3.0.8)",org
+ .springframework.core.task.support;version="[3.0.7,3.0.8)",org.spring
+ framework.core.type;version="[3.0.7,3.0.8)",org.springframework.core.
+ type.classreading;version="[3.0.7,3.0.8)",org.springframework.core.ty
+ pe.filter;version="[3.0.7,3.0.8)",org.springframework.expression;vers
+ ion="[3.0.7,3.0.8)";resolution:="optional",org.springframework.expres
+ sion.spel.standard;version="[3.0.7,3.0.8)";resolution:="optional",org
+ .springframework.expression.spel.support;version="[3.0.7,3.0.8)";reso
+ lution:="optional",org.springframework.instrument;version="0";resolut
+ ion:="optional",org.springframework.orm.jpa.support;version="[3.0.7,3
+ .0.8)";resolution:="optional",org.springframework.util;version="[3.0.
+ 7,3.0.8)",org.springframework.util.xml;version="[3.0.7,3.0.8)",org.w3
+ c.dom;version="0";resolution:="optional",org.xml.sax;version="0";reso
+ lution:="optional"
+Bundle-Creator: cbeams
+Implementation-Title: org.springframework.context
+Implementation-Version: 3.0.7.RELEASE
+

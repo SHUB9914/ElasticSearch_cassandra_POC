@@ -1,0 +1,502 @@
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: hawtdispatch-transport-1.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: netty-codec-http-4.1.13.Final.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: lucene-join-6.6.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: scala-library-2.11.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: hawtdispatch-1.11.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: lucene-memory-6.6.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: hawtbuf-1.9.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: lucene-misc-6.6.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: geronimo-j2ee-management_1.1_spec-1.0.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: lucene-queries-6.6.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: spring-context-3.0.7.RELEASE.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: lucene-queryparser-6.6.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: netty-handler-4.1.13.Final.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: lucene-sandbox-6.6.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: lucene-spatial-6.6.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: lucene-spatial-extras-6.6.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: reindex-client-5.6.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: spring-aop-3.0.7.RELEASE.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: elasticsearch-rest-client-5.6.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: lucene-spatial3d-6.6.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: httpclient-4.5.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: aopalliance-1.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: spring-asm-3.0.7.RELEASE.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: spring-beans-3.0.7.RELEASE.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: lucene-suggest-6.6.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: securesm-1.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: jopt-simple-5.0.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: httpcore-4.4.5.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: hppc-0.7.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: spring-core-3.0.7.RELEASE.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: httpasyncclient-4.1.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: httpcore-nio-4.4.5.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: snakeyaml-1.15.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: spring-expression-3.0.7.RELEASE.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: commons-net-3.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: jasypt-1.9.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: commons-codec-1.10.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: jackson-core-2.8.6.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: jackson-dataformat-smile-2.8.6.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: commons-logging-1.1.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: akka-contrib_2.11-2.5.19.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: lang-mustache-client-5.6.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: jackson-dataformat-yaml-2.8.6.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: compiler-0.9.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: jackson-dataformat-cbor-2.8.6.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: t-digest-3.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: HdrHistogram-2.1.9.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: percolator-client-5.6.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: parent-join-client-5.6.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: akka-remote_2.11-2.5.19.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: log4j-1.2.17.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: log4j-api-2.9.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: jna-4.4.0-1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: mongo-scala-driver_2.11-2.2.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: transport-5.6.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: transport-netty3-client-5.6.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: netty-3.10.6.Final.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: mongo-scala-bson_2.11-2.2.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: mongodb-driver-async-3.6.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: bson-3.6.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: mongodb-driver-core-3.6.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: phantom-dsl_2.11-2.14.5.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: transport-netty4-client-5.6.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: netty-buffer-4.1.13.Final.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: akka-actor_2.11-2.5.19.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: phantom-connectors_2.11-2.14.5.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: log4j-over-slf4j-1.7.25.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: slf4j-api-1.7.25.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: netty-common-4.1.13.Final.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: cassandra-driver-core-3.3.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: amqp-client-3.6.5.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: netty-codec-4.1.13.Final.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: config-1.3.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: netty-transport-4.1.13.Final.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: scala-java8-compat_2.11-0.7.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: netty-resolver-4.1.13.Final.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: asm-util-5.0.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: jnr-x86asm-1.0.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: jnr-posix-3.0.27.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: reactive-streams-1.0.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: ssl-config-core_2.11-0.3.6.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: guava-19.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: jnr-constants-0.9.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: scala-parser-combinators_2.11-1.1.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: macro-compat_2.11-1.1.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: activemq-core-5.7.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: shapeless_2.11-2.3.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: akka-stream_2.11-2.5.19.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: metrics-core-3.2.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: jnr-ffi-2.0.7.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: jffi-1.2.10.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: jffi-1.2.10-native.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: asm-5.0.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: asm-commons-5.0.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: asm-tree-5.0.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: asm-analysis-5.0.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: joda-convert-1.8.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: geronimo-jms_1.1_spec-1.1.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: scala-reflect-2.11.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: kahadb-5.7.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: mqtt-client-1.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: joda-time-2.9.9.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: akka-protobuf_2.11-2.5.19.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: aeron-driver-1.12.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: agrona-0.9.27.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: aeron-client-1.12.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: lucene-analyzers-common-6.6.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: akka-cluster_2.11-2.5.19.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: akka-cluster-tools_2.11-2.5.19.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: lucene-backward-codecs-6.6.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: lucene-grouping-6.6.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: akka-persistence_2.11-2.5.19.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: lucene-highlighter-6.6.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: akka-http_2.11-10.1.5.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: elasticsearch-5.6.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: akka-http-core_2.11-10.1.5.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: akka-parsing_2.11-10.1.5.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: spray-json_2.11-1.3.5.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: scala-csv_2.11-1.3.5.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: logback-classic-1.2.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: logback-core-1.2.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding: lucene-core-6.6.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCalculate mappings...[0m
+[0m[[0m[0mdebug[0m] [0m[0mChecking every *.class/*.jar file's SHA-1.[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging files...[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/NOTICE.txt' with strategy 'rename'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/NOTICE' with strategy 'rename'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/license' with strategy 'rename'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/LICENSE.txt' with strategy 'rename'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/LICENSE' with strategy 'rename'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/DEPENDENCIES' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/INDEX.LIST' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/MANIFEST.MF' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/io.netty.versions.properties' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/ch.qos.logback/logback-classic/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/ch.qos.logback/logback-classic/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/ch.qos.logback/logback-core/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/ch.qos.logback/logback-core/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/com.carrotsearch/hppc/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/com.carrotsearch/hppc/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/com.datastax.cassandra/cassandra-driver-core/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/com.datastax.cassandra/cassandra-driver-core/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/com.fasterxml.jackson.dataformat/jackson-dataformat-smile/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/com.fasterxml.jackson.dataformat/jackson-dataformat-smile/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/com.github.jnr/jffi/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/com.github.jnr/jffi/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/com.github.jnr/jnr-constants/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/com.github.jnr/jnr-constants/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/com.github.jnr/jnr-ffi/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/com.github.jnr/jnr-ffi/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/com.github.jnr/jnr-posix/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/com.github.jnr/jnr-posix/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/com.github.jnr/jnr-x86asm/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/com.github.jnr/jnr-x86asm/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/com.github.spullara.mustache.java/compiler/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/com.github.spullara.mustache.java/compiler/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/com.google.guava/guava/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/com.google.guava/guava/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/com.tdunning/t-digest/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/com.tdunning/t-digest/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/commons-codec/commons-codec/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/commons-codec/commons-codec/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/commons-logging/commons-logging/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/commons-logging/commons-logging/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/commons-net/commons-net/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/commons-net/commons-net/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/io.dropwizard.metrics/metrics-core/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/io.dropwizard.metrics/metrics-core/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/io.netty/netty-buffer/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/io.netty/netty-buffer/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/io.netty/netty-codec-http/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/io.netty/netty-codec-http/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/io.netty/netty-codec/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/io.netty/netty-codec/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/io.netty/netty-common/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/io.netty/netty-common/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/io.netty/netty-handler/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/io.netty/netty-handler/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/io.netty/netty-resolver/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/io.netty/netty-resolver/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/io.netty/netty-transport/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/io.netty/netty-transport/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/io.netty/netty/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/io.netty/netty/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/joda-time/joda-time/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/joda-time/joda-time/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/log4j/log4j/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/log4j/log4j/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/net.sf.jopt-simple/jopt-simple/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/net.sf.jopt-simple/jopt-simple/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.apache.activemq/activemq-core/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.apache.activemq/activemq-core/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.apache.activemq/kahadb/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.apache.activemq/kahadb/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.apache.geronimo.specs/geronimo-j2ee-management_1.1_spec/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.apache.geronimo.specs/geronimo-j2ee-management_1.1_spec/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.apache.geronimo.specs/geronimo-jms_1.1_spec/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.apache.geronimo.specs/geronimo-jms_1.1_spec/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.apache.httpcomponents/httpasyncclient/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.apache.httpcomponents/httpasyncclient/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.apache.httpcomponents/httpclient/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.apache.httpcomponents/httpclient/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.apache.httpcomponents/httpcore-nio/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.apache.httpcomponents/httpcore-nio/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.apache.httpcomponents/httpcore/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.apache.httpcomponents/httpcore/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.apache.logging.log4j/log4j-api/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.apache.logging.log4j/log4j-api/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.elasticsearch/securesm/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.elasticsearch/securesm/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.fusesource.hawtbuf/hawtbuf/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.fusesource.hawtbuf/hawtbuf/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.fusesource.hawtdispatch/hawtdispatch-transport/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.fusesource.hawtdispatch/hawtdispatch-transport/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.fusesource.hawtdispatch/hawtdispatch/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.fusesource.hawtdispatch/hawtdispatch/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.fusesource.mqtt-client/mqtt-client/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.fusesource.mqtt-client/mqtt-client/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.hdrhistogram/HdrHistogram/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.hdrhistogram/HdrHistogram/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.jasypt/jasypt/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.jasypt/jasypt/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.jctools/jctools-core/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.jctools/jctools-core/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.joda/joda-convert/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.joda/joda-convert/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.slf4j/log4j-over-slf4j/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.slf4j/log4j-over-slf4j/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.slf4j/slf4j-api/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.slf4j/slf4j-api/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.yaml/snakeyaml/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.yaml/snakeyaml/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/services/com.fasterxml.jackson.core.JsonFactory' with strategy 'filterDistinctLines'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/services/org.apache.lucene.analysis.util.TokenFilterFactory' with strategy 'filterDistinctLines'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/services/org.apache.lucene.codecs.Codec' with strategy 'filterDistinctLines'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/services/org.apache.lucene.codecs.DocValuesFormat' with strategy 'filterDistinctLines'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/services/org.apache.lucene.codecs.PostingsFormat' with strategy 'filterDistinctLines'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/spring.handlers' with strategy 'filterDistinctLines'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/spring.schemas' with strategy 'filterDistinctLines'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/spring.tooling' with strategy 'filterDistinctLines'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'org/apache/log4j/Appender.class' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'org/apache/log4j/AppenderSkeleton.class' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'org/apache/log4j/BasicConfigurator.class' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'org/apache/log4j/Category.class' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'org/apache/log4j/ConsoleAppender.class' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'org/apache/log4j/FileAppender.class' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'org/apache/log4j/Layout.class' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'org/apache/log4j/Level.class' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'org/apache/log4j/LogManager.class' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'org/apache/log4j/Logger.class' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'org/apache/log4j/MDC.class' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'org/apache/log4j/NDC.class' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'org/apache/log4j/PatternLayout.class' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'org/apache/log4j/Priority.class' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'org/apache/log4j/PropertyConfigurator.class' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'org/apache/log4j/RollingFileAppender.class' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'org/apache/log4j/SimpleLayout.class' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'org/apache/log4j/WriterAppender.class' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'org/apache/log4j/helpers/LogLog.class' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'org/apache/log4j/helpers/NullEnumeration.class' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'org/apache/log4j/spi/Configurator.class' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'org/apache/log4j/spi/ErrorHandler.class' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'org/apache/log4j/spi/Filter.class' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'org/apache/log4j/spi/HierarchyEventListener.class' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'org/apache/log4j/spi/LoggerFactory.class' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'org/apache/log4j/spi/LoggerRepository.class' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'org/apache/log4j/spi/LoggingEvent.class' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'org/apache/log4j/spi/OptionHandler.class' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'org/apache/log4j/xml/DOMConfigurator.class' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'overview.html' with strategy 'deduplicate'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'reference.conf' with strategy 'concat'[0m
+[0m[[0m[31merror[0m] [0m[0m31 errors were encountered during merge[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.RuntimeException: deduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.1.13.Final.jar:META-INF/io.netty.versions.properties[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.1.13.Final.jar:META-INF/io.netty.versions.properties[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.1.13.Final.jar:META-INF/io.netty.versions.properties[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.1.13.Final.jar:META-INF/io.netty.versions.properties[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/io.netty/netty-resolver/jars/netty-resolver-4.1.13.Final.jar:META-INF/io.netty.versions.properties[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/io.netty/netty-codec-http/jars/netty-codec-http-4.1.13.Final.jar:META-INF/io.netty.versions.properties[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.1.13.Final.jar:META-INF/io.netty.versions.properties[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/Appender.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/Appender.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/AppenderSkeleton.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/AppenderSkeleton.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/BasicConfigurator.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/BasicConfigurator.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/Category.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/Category.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/ConsoleAppender.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/ConsoleAppender.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/FileAppender.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/FileAppender.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/Layout.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/Layout.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/Level.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/Level.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/LogManager.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/LogManager.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/Logger.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/Logger.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/MDC.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/MDC.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/NDC.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/NDC.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/PatternLayout.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/PatternLayout.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/Priority.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/Priority.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/PropertyConfigurator.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/PropertyConfigurator.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/RollingFileAppender.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/RollingFileAppender.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/SimpleLayout.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/SimpleLayout.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/WriterAppender.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/WriterAppender.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/helpers/LogLog.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/helpers/LogLog.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/helpers/NullEnumeration.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/helpers/NullEnumeration.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/spi/Configurator.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/spi/Configurator.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/spi/ErrorHandler.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/spi/ErrorHandler.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/spi/Filter.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/spi/Filter.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/spi/HierarchyEventListener.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/spi/HierarchyEventListener.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/spi/LoggerFactory.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/spi/LoggerFactory.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/spi/LoggerRepository.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/spi/LoggerRepository.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/spi/LoggingEvent.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/spi/LoggingEvent.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/spi/OptionHandler.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/spi/OptionHandler.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/xml/DOMConfigurator.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/xml/DOMConfigurator.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.springframework/spring-context/jars/spring-context-3.0.7.RELEASE.jar:overview.html[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.springframework/spring-aop/jars/spring-aop-3.0.7.RELEASE.jar:overview.html[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-3.0.7.RELEASE.jar:overview.html[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.springframework/spring-core/jars/spring-core-3.0.7.RELEASE.jar:overview.html[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtassembly.Assembly$.applyStrategies(Assembly.scala:143)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtassembly.Assembly$.x$1$lzycompute$1(Assembly.scala:25)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtassembly.Assembly$.x$1$1(Assembly.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtassembly.Assembly$.stratMapping$lzycompute$1(Assembly.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtassembly.Assembly$.stratMapping$1(Assembly.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtassembly.Assembly$.inputs$lzycompute$1(Assembly.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtassembly.Assembly$.inputs$1(Assembly.scala:58)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtassembly.Assembly$.apply(Assembly.scala:85)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtassembly.Assembly$.$anonfun$assemblyTask$1(Assembly.scala:244)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:44)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:40)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(System.scala:67)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:269)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:278)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:269)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Thread.java:748)[0m
+[0m[[0m[31merror[0m] [0m[0m([31massembly[0m) deduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.1.13.Final.jar:META-INF/io.netty.versions.properties[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.1.13.Final.jar:META-INF/io.netty.versions.properties[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.1.13.Final.jar:META-INF/io.netty.versions.properties[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.1.13.Final.jar:META-INF/io.netty.versions.properties[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/io.netty/netty-resolver/jars/netty-resolver-4.1.13.Final.jar:META-INF/io.netty.versions.properties[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/io.netty/netty-codec-http/jars/netty-codec-http-4.1.13.Final.jar:META-INF/io.netty.versions.properties[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.1.13.Final.jar:META-INF/io.netty.versions.properties[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/Appender.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/Appender.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/AppenderSkeleton.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/AppenderSkeleton.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/BasicConfigurator.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/BasicConfigurator.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/Category.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/Category.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/ConsoleAppender.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/ConsoleAppender.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/FileAppender.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/FileAppender.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/Layout.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/Layout.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/Level.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/Level.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/LogManager.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/LogManager.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/Logger.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/Logger.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/MDC.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/MDC.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/NDC.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/NDC.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/PatternLayout.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/PatternLayout.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/Priority.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/Priority.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/PropertyConfigurator.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/PropertyConfigurator.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/RollingFileAppender.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/RollingFileAppender.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/SimpleLayout.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/SimpleLayout.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/WriterAppender.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/WriterAppender.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/helpers/LogLog.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/helpers/LogLog.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/helpers/NullEnumeration.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/helpers/NullEnumeration.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/spi/Configurator.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/spi/Configurator.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/spi/ErrorHandler.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/spi/ErrorHandler.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/spi/Filter.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/spi/Filter.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/spi/HierarchyEventListener.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/spi/HierarchyEventListener.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/spi/LoggerFactory.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/spi/LoggerFactory.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/spi/LoggerRepository.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/spi/LoggerRepository.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/spi/LoggingEvent.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/spi/LoggingEvent.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/spi/OptionHandler.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/spi/OptionHandler.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar:org/apache/log4j/xml/DOMConfigurator.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar:org/apache/log4j/xml/DOMConfigurator.class[0m
+[0m[[0m[31merror[0m] [0m[0mdeduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.springframework/spring-context/jars/spring-context-3.0.7.RELEASE.jar:overview.html[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.springframework/spring-aop/jars/spring-aop-3.0.7.RELEASE.jar:overview.html[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-3.0.7.RELEASE.jar:overview.html[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubhamagarwal/.ivy2/cache/org.springframework/spring-core/jars/spring-core-3.0.7.RELEASE.jar:overview.html[0m

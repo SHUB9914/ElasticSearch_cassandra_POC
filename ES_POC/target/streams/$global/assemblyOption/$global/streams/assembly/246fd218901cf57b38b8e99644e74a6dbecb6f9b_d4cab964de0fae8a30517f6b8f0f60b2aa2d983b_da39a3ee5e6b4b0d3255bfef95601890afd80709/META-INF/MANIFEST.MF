@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: phantom-dsl
+Implementation-Version: 2.14.5
+Specification-Vendor: com.outworkers
+Specification-Title: phantom-dsl
+Implementation-Vendor-Id: com.outworkers
+Specification-Version: 2.14.5
+Implementation-Vendor: com.outworkers
+

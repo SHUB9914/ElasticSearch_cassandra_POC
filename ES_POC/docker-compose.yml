@@ -1,0 +1,18 @@
+version: "2"
+services:
+  api:
+    build: src/main/scala/docker/
+    volumes:
+    - ~/.m2:/root/.m2
+    - ~/.ivy2:/root/.ivy2
+    - ~/.sbt:/root/.sbt
+
+  simulator:
+    build: .
+    volumes:
+    - ~/.m2:/root/.m2
+    - ~/.ivy2:/root/.ivy2
+    - ~/.sbt:/root/.sbt
+
+    ports:
+    - "8001:8080"

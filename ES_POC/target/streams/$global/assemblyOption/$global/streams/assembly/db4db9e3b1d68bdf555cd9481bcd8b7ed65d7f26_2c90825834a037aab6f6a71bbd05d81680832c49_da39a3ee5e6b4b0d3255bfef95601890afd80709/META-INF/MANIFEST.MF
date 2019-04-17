@@ -1,0 +1,65 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.2
+Created-By: 1.6.0_29-b11-402-11M3527 (Apple Inc.)
+Export-Package: org.springframework.core;version="3.0.7.RELEASE";uses:
+ ="org.springframework.asm,org.springframework.asm.commons,org.springf
+ ramework.util",org.springframework.core.annotation;version="3.0.7.REL
+ EASE";uses:="org.springframework.core",org.springframework.core.conve
+ rt;version="3.0.7.RELEASE";uses:="org.springframework.core",org.sprin
+ gframework.core.convert.converter;version="3.0.7.RELEASE";uses:="org.
+ springframework.core.convert",org.springframework.core.convert.suppor
+ t;version="3.0.7.RELEASE";uses:="org.springframework.core,org.springf
+ ramework.core.convert,org.springframework.core.convert.converter",org
+ .springframework.core.enums;version="3.0.7.RELEASE";uses:="org.spring
+ framework.util",org.springframework.core.io;version="3.0.7.RELEASE",o
+ rg.springframework.core.io.support;version="3.0.7.RELEASE";uses:="org
+ .springframework.core.io,org.springframework.util",org.springframewor
+ k.core.serializer;version="3.0.7.RELEASE",org.springframework.core.se
+ rializer.support;version="3.0.7.RELEASE";uses:="org.springframework.c
+ ore,org.springframework.core.convert.converter,org.springframework.co
+ re.serializer",org.springframework.core.style;version="3.0.7.RELEASE"
+ ,org.springframework.core.task;version="3.0.7.RELEASE";uses:="org.spr
+ ingframework.util",org.springframework.core.task.support;version="3.0
+ .7.RELEASE";uses:="org.springframework.core.task",org.springframework
+ .core.type;version="3.0.7.RELEASE",org.springframework.core.type.clas
+ sreading;version="3.0.7.RELEASE";uses:="org.springframework.asm,org.s
+ pringframework.core.io,org.springframework.core.type,org.springframew
+ ork.util",org.springframework.core.type.filter;version="3.0.7.RELEASE
+ ";uses:="org.springframework.core.type,org.springframework.core.type.
+ classreading",org.springframework.util;version="3.0.7.RELEASE";uses:=
+ "org.apache.commons.logging",org.springframework.util.comparator;vers
+ ion="3.0.7.RELEASE",org.springframework.util.xml;version="3.0.7.RELEA
+ SE";uses:="javax.xml.namespace,javax.xml.stream,javax.xml.stream.util
+ ,javax.xml.transform,javax.xml.transform.sax,org.apache.commons.loggi
+ ng,org.w3c.dom,org.xml.sax,org.xml.sax.ext"
+Bundle-Vendor: SpringSource
+Bundle-Version: 3.0.7.RELEASE
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: Spring Core
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.springframework.core
+Import-Package: javax.xml.namespace;version="0";resolution:="optional"
+ ,javax.xml.stream;version="0";resolution:="optional",javax.xml.stream
+ .events;version="0";resolution:="optional",javax.xml.stream.util;vers
+ ion="0";resolution:="optional",javax.xml.transform;version="0";resolu
+ tion:="optional",javax.xml.transform.sax;version="0";resolution:="opt
+ ional",javax.xml.transform.stax;version="0";resolution:="optional",or
+ g.apache.commons.logging;version="[1.1.1, 2.0.0)",org.apache.log4j;ve
+ rsion="[1.2.15, 2.0.0)";resolution:="optional",org.apache.log4j.xml;v
+ ersion="[1.2.15, 2.0.0)";resolution:="optional",org.aspectj.bridge;ve
+ rsion="[1.5.4, 2.0.0)";resolution:="optional",org.aspectj.weaver;vers
+ ion="[1.5.4, 2.0.0)";resolution:="optional",org.aspectj.weaver.bcel;v
+ ersion="[1.5.4, 2.0.0)";resolution:="optional",org.aspectj.weaver.pat
+ terns;version="[1.5.4, 2.0.0)";resolution:="optional",org.eclipse.cor
+ e.runtime;common="split";version="0";resolution:="optional",org.jboss
+ .vfs;version="[3.0.0, 4.0.0)";resolution:="optional",org.jboss.virtua
+ l;version="[2.1.0.GA, 3.0.0)";resolution:="optional",org.springframew
+ ork.asm;version="[3.0.7,3.0.8)";resolution:="optional",org.springfram
+ ework.asm.commons;version="[3.0.7,3.0.8)";resolution:="optional",org.
+ w3c.dom;version="0";resolution:="optional",org.xml.sax;version="0";re
+ solution:="optional",org.xml.sax.ext;version="0";resolution:="optiona
+ l",org.xml.sax.helpers;version="0";resolution:="optional"
+Bundle-Creator: cbeams
+Implementation-Title: org.springframework.core
+Implementation-Version: 3.0.7.RELEASE
+

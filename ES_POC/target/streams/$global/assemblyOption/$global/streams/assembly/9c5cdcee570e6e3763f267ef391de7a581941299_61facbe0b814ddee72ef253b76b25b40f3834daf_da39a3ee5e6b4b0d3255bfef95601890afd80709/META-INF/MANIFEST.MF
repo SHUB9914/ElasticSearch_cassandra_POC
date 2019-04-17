@@ -1,0 +1,56 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: akka.contrib
+Bnd-LastModified: 1544183427014
+Bundle-Description:  This subproject provides a home to modules contri
+ buted by external developers which may or may not move into the offic
+ ially supported code base over time. A module in this subproject does
+ n't have to obey the rule of staying binary compatible between minor 
+ releases. Breaking API changes may be introduced in minor releases wi
+ thout notice as we refine and simplify based on your feedback. A modu
+ le may be dropped in any release without prior deprecation. The Light
+ bend subscription does not cover support for these modules. 
+Bundle-DocURL: http://doc.akka.io/api/akka/2.5.19
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0;description
+ =Apache License, Version 2.0
+Bundle-ManifestVersion: 2
+Bundle-Name: akka-contrib
+Bundle-SymbolicName: com.typesafe.akka.contrib
+Bundle-Vendor: Lightbend Inc.
+Bundle-Version: 2.5.19
+Created-By: 11.0.1 (Oracle Corporation)
+Export-Package: akka.contrib.circuitbreaker;uses:="akka.actor,akka.eve
+ nt,akka.util,scala,scala.collection,scala.collection.immutable,scala.
+ collection.mutable,scala.concurrent,scala.concurrent.duration,scala.r
+ eflect,scala.runtime,scala.util";version="2.5.19",akka.contrib.jul;us
+ es:="akka.actor,akka.dispatch,akka.event,scala,scala.collection,scala
+ .collection.immutable,scala.concurrent,scala.reflect,scala.runtime";v
+ ersion="2.5.19",akka.contrib.mailbox;uses:="akka.actor,akka.dispatch,
+ com.typesafe.config,scala,scala.reflect";version="2.5.19",akka.contri
+ b.pattern;uses:="akka.actor,akka.event,scala,scala.collection,scala.c
+ ollection.immutable,scala.collection.mutable,scala.concurrent.duratio
+ n,scala.reflect,scala.runtime";version="2.5.19",akka.contrib.throttle
+ ;uses:="akka.actor,akka.event,scala,scala.collection,scala.collection
+ .immutable,scala.collection.mutable,scala.concurrent.duration,scala.r
+ eflect,scala.runtime";version="2.5.19"
+Implementation-Title: akka-contrib
+Implementation-URL: http://akka.io/
+Implementation-Vendor: Lightbend Inc.
+Implementation-Vendor-Id: com.typesafe.akka
+Implementation-Version: 2.5.19
+Import-Package: akka;version="[2.5,2.6)",akka.actor;version="[2.5,2.6)
+ ",akka.dispatch;version="[2.5,2.6)",akka.event;version="[2.5,2.6)",ak
+ ka.pattern;version="[2.5,2.6)",akka.remote;version="[2.5,2.6)",akka.r
+ outing;version="[2.5,2.6)",akka.util;version="[2.5,2.6)",com.typesafe
+ .config;version="[1.3.0,1.4.0)",scala;version="[2.11,2.12)",scala.col
+ lection;version="[2.11,2.12)",scala.collection.generic;version="[2.11
+ ,2.12)",scala.collection.immutable;version="[2.11,2.12)",scala.collec
+ tion.mutable;version="[2.11,2.12)",scala.concurrent;version="[2.11,2.
+ 12)",scala.concurrent.duration;version="[2.11,2.12)",scala.math;versi
+ on="[2.11,2.12)",scala.reflect;version="[2.11,2.12)",scala.runtime;ve
+ rsion="[2.11,2.12)",scala.util;version="[2.11,2.12)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version>=1.8))
+ "
+Specification-Title: akka-contrib
+Specification-Vendor: Lightbend Inc.
+Specification-Version: 2.5.19
+Tool: Bnd-4.0.0.201805111645

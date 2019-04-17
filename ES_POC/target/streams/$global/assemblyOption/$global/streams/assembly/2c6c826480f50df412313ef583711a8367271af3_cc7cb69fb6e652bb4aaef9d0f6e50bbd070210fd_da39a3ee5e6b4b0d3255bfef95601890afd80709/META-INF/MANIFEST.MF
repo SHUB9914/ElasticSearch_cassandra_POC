@@ -1,0 +1,61 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: akka.cluster.tools
+Bnd-LastModified: 1544183350802
+Bundle-Description: akka-cluster-tools
+Bundle-DocURL: http://doc.akka.io/api/akka/2.5.19
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0;description
+ =Apache License, Version 2.0
+Bundle-ManifestVersion: 2
+Bundle-Name: akka-cluster-tools
+Bundle-SymbolicName: com.typesafe.akka.cluster.tools
+Bundle-Vendor: Lightbend Inc.
+Bundle-Version: 2.5.19
+Created-By: 11.0.1 (Oracle Corporation)
+Export-Package: akka.cluster.singleton;uses:="akka,akka.actor,akka.clu
+ ster,akka.event,akka.util,com.typesafe.config,scala,scala.collection,
+ scala.collection.immutable,scala.collection.mutable,scala.concurrent,
+ scala.concurrent.duration,scala.math,scala.reflect,scala.runtime";ver
+ sion="2.5.19",akka.cluster.singleton.protobuf;uses:="akka.actor,akka.
+ cluster.singleton,akka.serialization,scala,scala.reflect,scala.runtim
+ e";version="2.5.19",akka.cluster.client;uses:="akka.actor,akka.cluste
+ r,akka.event,akka.remote,akka.routing,akka.util,com.typesafe.config,s
+ cala,scala.collection,scala.collection.immutable,scala.concurrent.dur
+ ation,scala.reflect,scala.runtime";version="2.5.19",akka.cluster.clie
+ nt.protobuf;uses:="akka.actor,akka.cluster.client,akka.serialization,
+ scala,scala.reflect,scala.runtime";version="2.5.19",akka.cluster.clie
+ nt.protobuf.msg;uses:="akka.protobuf";version="2.5.19",akka.cluster.p
+ ubsub;uses:="akka.actor,akka.cluster,akka.event,akka.routing,akka.uti
+ l,com.typesafe.config,scala,scala.collection,scala.collection.immutab
+ le,scala.concurrent.duration,scala.reflect,scala.runtime";version="2.
+ 5.19",akka.cluster.pubsub.protobuf;uses:="akka.actor,akka.cluster.pub
+ sub,akka.cluster.pubsub.protobuf.msg,akka.serialization,scala,scala.r
+ eflect,scala.runtime";version="2.5.19",akka.cluster.pubsub.protobuf.m
+ sg;uses:="akka.protobuf";version="2.5.19"
+Implementation-Title: akka-cluster-tools
+Implementation-URL: http://akka.io/
+Implementation-Vendor: Lightbend Inc.
+Implementation-Vendor-Id: com.typesafe.akka
+Implementation-Version: 2.5.19
+Import-Package: akka;version="[2.5,2.6)",akka.actor;version="[2.5,2.6)
+ ",akka.cluster;version="[2.5,2.6)",akka.cluster.client;version="[2.5,
+ 2.6)",akka.cluster.client.protobuf.msg;version="[2.5,2.6)",akka.clust
+ er.pubsub;version="[2.5,2.6)",akka.cluster.pubsub.protobuf.msg;versio
+ n="[2.5,2.6)",akka.cluster.singleton;version="[2.5,2.6)",akka.event;v
+ ersion="[2.5,2.6)",akka.japi;version="[2.5,2.6)",akka.pattern;version
+ ="[2.5,2.6)",akka.protobuf;version="[2.5,2.6)",akka.remote;version="[
+ 2.5,2.6)",akka.routing;version="[2.5,2.6)",akka.serialization;version
+ ="[2.5,2.6)",akka.util;version="[2.5,2.6)",com.typesafe.config;versio
+ n="[1.3.0,1.4.0)",scala;version="[2.11,2.12)",scala.collection;versio
+ n="[2.11,2.12)",scala.collection.convert;version="[2.11,2.12)",scala.
+ collection.generic;version="[2.11,2.12)",scala.collection.immutable;v
+ ersion="[2.11,2.12)",scala.collection.mutable;version="[2.11,2.12)",s
+ cala.concurrent;version="[2.11,2.12)",scala.concurrent.duration;versi
+ on="[2.11,2.12)",scala.math;version="[2.11,2.12)",scala.reflect;versi
+ on="[2.11,2.12)",scala.runtime;version="[2.11,2.12)",scala.util;versi
+ on="[2.11,2.12)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version>=1.8))
+ "
+Specification-Title: akka-cluster-tools
+Specification-Vendor: Lightbend Inc.
+Specification-Version: 2.5.19
+Tool: Bnd-4.0.0.201805111645

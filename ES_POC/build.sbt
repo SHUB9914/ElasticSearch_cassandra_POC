@@ -1,38 +1,78 @@
+import sbt.Keys.version
 
-name := "ES_POC"
 
-version := "0.1"
+lazy val commonSettings = Seq(
+  name := "ES_POC",
 
-scalaVersion := "2.11.0"
+  version := "0.1",
+
+  scalaVersion := "2.11.0"
+)
+
+scalaVersion in ThisBuild := "2.12.5"
+
 
 val es = "org.elasticsearch" % "elasticsearch" % "5.6.1"
 val esClient = "org.elasticsearch.client" % "transport" % "5.6.1"
 val log4j = "log4j" % "log4j" % "1.2.17"
 val mongoDb = "org.mongodb.scala" %% "mongo-scala-driver" % "2.2.1"
-val RabbitMqClient = "com.rabbitmq"  %  "amqp-client"% "3.6.5"
+val RabbitMqClient = "com.rabbitmq" % "amqp-client" % "3.6.5"
 val actor = "com.typesafe.akka" %% "akka-actor" % "2.5.18"
 val akkaStream = "com.typesafe.akka" %% "akka-stream" % "2.5.18"
 val amq = "org.apache.activemq" % "activemq-core" % "5.7.0"
+val akkahttp = "com.typesafe.akka" %% "akka-http" % "10.1.5"
+val contrib = "com.typesafe.akka" %% "akka-contrib" % "2.5.19"
+val sprayJson       =     "io.spray"            %%   "spray-json"       % "1.3.5"
+val csvReader = "com.github.tototoshi" %% "scala-csv" % "1.3.5"
+val slf4j           =     "org.slf4j"           %    "slf4j-api"        % "1.7.25"
+val logback         =     "ch.qos.logback"      %    "logback-classic"  % "1.2.3"
+val sparkCore = "org.apache.spark" %% "spark-core" % "2.4.0"
+val sparkStreaming = "org.apache.spark" %% "spark-streaming" % "2.4.0" % "provided"
+val spark_hive = "org.apache.spark" %% "spark-hive" % "2.4.1" % "provided"
+val jwt = "com.pauldijou" %% "jwt-core" % "0.5.1"
 
 
 
 
 
 
-
-libraryDependencies ++= {
-  Seq(
-    "com.outworkers" % "phantom-dsl_2.11" % "2.14.5",
-    "org.scala-lang" % "scala-reflect" % "2.11.0",
-    es,
-    esClient,
-    log4j,
-    mongoDb,
-    RabbitMqClient,
-    actor,
-    akkaStream,
-    amq
-  )
+lazy val DeskService: Project = {
+  Project("ES_POC", file("."))
+    .settings(commonSettings: _*)
+    .settings(mainClass in assembly := Some("simulator.SimulatorServer"))
+    .settings(assemblyJarName in assembly := s"ES_POC-${version.value}.jar")
+    .settings(libraryDependencies ++= Seq(
+      "com.outworkers" % "phantom-dsl_2.11" % "2.14.5",
+      "org.scala-lang" % "scala-reflect" % "2.11.0",
+      es,
+      jwt,
+      esClient,
+      log4j,
+      mongoDb,
+      RabbitMqClient,
+      actor,
+      akkaStream,
+      amq,
+      contrib,
+      akkahttp,
+      sprayJson,
+      csvReader,
+      slf4j,
+      logback,
+      sparkCore,
+      sparkStreaming,
+      spark_hive
+    ))
 }
+
+
+
+
+
+//
+//enablePlugins(AkkaGrpcPlugin)
+//enablePlugins(JavaAgent)
+
+
 
 
