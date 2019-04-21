@@ -4,7 +4,7 @@
 		module="es_poc$sources"
 		revision="0.1"
 		status="integration"
-		publication="20190417141810"
+		publication="20190419225410"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
