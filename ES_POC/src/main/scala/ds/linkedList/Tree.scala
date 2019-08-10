@@ -50,15 +50,6 @@ class Tree(var left: Tree = null, var data: Int, var right: Tree = null) {
 
   }
 
-  def count1(tree: Tree): Int = {
-    if (tree == null) {
-      0
-    } else if (tree.left == null && tree.right == null) 1 else {
-      count1(tree.left) + count1(tree.right) + 1
-    }
-
-  }
-
 
   def findParentNodeOfTwoChildNodes(tree: Tree, node1: Int, node2: Int): Tree = {
 

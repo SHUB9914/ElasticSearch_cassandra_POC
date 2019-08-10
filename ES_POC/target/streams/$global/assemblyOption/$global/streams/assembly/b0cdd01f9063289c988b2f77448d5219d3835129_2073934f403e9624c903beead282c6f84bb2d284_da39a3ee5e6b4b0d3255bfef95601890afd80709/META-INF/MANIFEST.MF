@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Title: mongo-scala-driver
-Implementation-Version: 2.2.1
-Specification-Vendor: org.mongodb.scala
-Specification-Title: mongo-scala-driver
-Implementation-Vendor-Id: org.mongodb.scala
-Specification-Version: 2.2.1
-Implementation-Vendor: org.mongodb.scala
-

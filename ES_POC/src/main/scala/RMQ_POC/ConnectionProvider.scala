@@ -7,7 +7,7 @@ import com.rabbitmq.client.{Channel, Connection, ConnectionFactory}
 object ConnectionProvider {
 
   val factory: ConnectionFactory = new ConnectionFactory
-//  factory.setAutomaticRecoveryEnabled(true)
+  factory.setAutomaticRecoveryEnabled(true)
 
 
   factory.setHost("localhost")
@@ -17,6 +17,7 @@ object ConnectionProvider {
 
 
   val connection: Connection = factory.newConnection()
+
   val channel: client.Channel = connection.createChannel()
 
 

@@ -5,11 +5,16 @@ import javax.jms.{Message, MessageListener, TextMessage}
 
 object ReceiveFromQeue extends App {
 
+//  val DEFAULT_BROKER_BIND_URL = "tcp://localhost:61616"
+//  val DEFAULT_BROKER_URL = "failover://" + DEFAULT_BROKER_BIND_URL
+
   conn.start()
 
 
   val queue = session.createQueue("SampleQueue")
   val consumer = session.createConsumer(queue)
+
+
 //  val message = consumer.receive(1000)
 
   consumer.setMessageListener(new MessageListener {

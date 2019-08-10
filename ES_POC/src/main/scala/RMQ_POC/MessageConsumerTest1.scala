@@ -1,18 +1,15 @@
 package RMQ_POC
 
-import akka.actor.Actor
 import com.rabbitmq.client.{AMQP, DefaultConsumer, Envelope}
 
-class MessageConsumerTest1 extends Actor {
+class MessageConsumerTest1 {
 
   val channel = ConnectionProvider.channel
   channel.exchangeDeclare("my_exchange" , "topic" , false)
   val messageConsumer = new MessageConsumer(channel)
 
 
-  override def receive: Receive = {
-    case "Start" => println("Black message start consuming....");startConsuming
-  }
+  def receive = println("Black message start consuming....");startConsuming
 
   def startConsuming= {
 

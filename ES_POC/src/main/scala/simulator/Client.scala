@@ -36,7 +36,8 @@ object Client extends App {
 
   lazy val throttleLevel = conf.getInt("simulator.event.throttle")
   lazy val maxSimulatorCount = conf.getInt("simulator.event.maxlimit")
-  lazy val url = conf.getString("simulator.api.url")
+//  lazy val url = conf.getString("simulator.api.url")
+  lazy val url = "http://172.16.2.206:8989/114/490/search"
   lazy val accessToken = conf.getString("simulator.api.access_token")
 
   val reader = CSVReader.open(new File("/home/shubhamagarwal/Downloads/Info.csv"))
@@ -62,18 +63,31 @@ object Client extends App {
           HttpMethods.POST,
           url,
           entity = HttpEntity(ContentTypes.`application/json`, data.getBytes())
-        ).withHeaders(RawHeader("X-Access-Token", accessToken))
+        )
       )
 
+//
+//  Source.fromIterator(() => Iterator from 0)
+//    .limit(maxSimulatorCount)
+//    .map(_ => generateRandomPayload)
+//    .throttle(throttleLevel , 1.second , throttleLevel , ThrottleMode.shaping)
+//    .runForeach{
+//      data =>
+//        log.warn("Going to call server api with data = "+data)
+//        post(data.prettyPrint)
+//    }
 
-  Source.fromIterator(() => Iterator from 0)
-    .limit(maxSimulatorCount)
-    .map(_ => generateRandomPayload)
-    .throttle(throttleLevel , 1.second , throttleLevel , ThrottleMode.shaping)
-    .runForeach{
-      data =>
-        log.warn("Going to call server api with data = "+data)
-        post(data.prettyPrint)
-    }
+  val a = """{
+            |   "columns":[
+            |      "w.id"
+            |   ],
+            |   "query":"w.id in (214878,214870,214890,214888,214871,214889,214880,214877,214882,214879,214892,214868,214875,214872,214896,214869,214873,214887,214884,214883,214897,214885,214874,214898) and w.status in (closed)"
+            |}""".stripMargin
+
+  val res = post(a)
+
+  Thread.sleep(1000)
+
+  println(">>>>>>Res>>>>>> " + res)
 
 }
